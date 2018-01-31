@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23251E12020726000FD2009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23251E02020726000FD2009 /* AppDelegate.m */; };
+		B23251E72020726000FD2009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23251E52020726000FD2009 /* Main.storyboard */; };
+		B23251E92020726000FD2009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23251E82020726000FD2009 /* Assets.xcassets */; };
+		B23251EC2020726000FD2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23251EA2020726000FD2009 /* LaunchScreen.storyboard */; };
+		B23251EF2020726100FD2009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23251EE2020726100FD2009 /* main.m */; };
+		B23251F92020726100FD2009 /* TiledLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23251F82020726100FD2009 /* TiledLayerDemoTests.m */; };
+		B23252042020726100FD2009 /* TiledLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23252032020726100FD2009 /* TiledLayerDemoUITests.m */; };
+		B2325213202073AA00FD2009 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2325212202073AA00FD2009 /* CollectionViewController.m */; };
+		B232526F2020752800FD2009 /* Imgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B232526E2020752800FD2009 /* Imgs.plist */; };
+		B23252722020757400FD2009 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23252712020757400FD2009 /* CollectionViewCell.m */; };
+		B2398FCC2021668C00708C3E /* timg000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FC92021668C00708C3E /* timg000.jpg */; };
+		B2398FCD2021668C00708C3E /* timg001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FCA2021668C00708C3E /* timg001.jpg */; };
+		B2398FCE2021668C00708C3E /* timg002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FCB2021668C00708C3E /* timg002.jpg */; };
+		B2398FDB2021674B00708C3E /* timg005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FCF2021674A00708C3E /* timg005.jpg */; };
+		B2398FDC2021674B00708C3E /* timg008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD02021674A00708C3E /* timg008.jpg */; };
+		B2398FDD2021674B00708C3E /* timg014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD12021674A00708C3E /* timg014.jpg */; };
+		B2398FDE2021674B00708C3E /* timg004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD22021674A00708C3E /* timg004.jpg */; };
+		B2398FDF2021674B00708C3E /* timg012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD32021674A00708C3E /* timg012.jpg */; };
+		B2398FE02021674B00708C3E /* timg011.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD42021674A00708C3E /* timg011.jpg */; };
+		B2398FE12021674B00708C3E /* timg013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD52021674A00708C3E /* timg013.jpg */; };
+		B2398FE22021674B00708C3E /* timg003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD62021674A00708C3E /* timg003.jpg */; };
+		B2398FE32021674B00708C3E /* timg009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD72021674A00708C3E /* timg009.jpg */; };
+		B2398FE42021674B00708C3E /* timg007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD82021674A00708C3E /* timg007.jpg */; };
+		B2398FE52021674B00708C3E /* timg010.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FD92021674A00708C3E /* timg010.jpg */; };
+		B2398FE62021674B00708C3E /* timg006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2398FDA2021674A00708C3E /* timg006.jpg */; };
+		B2398FE9202168C300708C3E /* TiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2398FE8202168C300708C3E /* TiledView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23251F52020726100FD2009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23251D42020726000FD2009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23251DB2020726000FD2009;
+			remoteInfo = TiledLayerDemo;
+		};
+		B23252002020726100FD2009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23251D42020726000FD2009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23251DB2020726000FD2009;
+			remoteInfo = TiledLayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23251DC2020726000FD2009 /* TiledLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23251DF2020726000FD2009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23251E02020726000FD2009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B23251E62020726000FD2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23251E82020726000FD2009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23251EB2020726000FD2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B23251ED2020726000FD2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23251EE2020726100FD2009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23251F42020726100FD2009 /* TiledLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23251F82020726100FD2009 /* TiledLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledLayerDemoTests.m; sourceTree = "<group>"; };
+		B23251FA2020726100FD2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23251FF2020726100FD2009 /* TiledLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23252032020726100FD2009 /* TiledLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledLayerDemoUITests.m; sourceTree = "<group>"; };
+		B23252052020726100FD2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2325211202073AA00FD2009 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B2325212202073AA00FD2009 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		B232526E2020752800FD2009 /* Imgs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Imgs.plist; sourceTree = "<group>"; };
+		B23252702020757400FD2009 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		B23252712020757400FD2009 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		B2398FC92021668C00708C3E /* timg000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg000.jpg; sourceTree = "<group>"; };
+		B2398FCA2021668C00708C3E /* timg001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg001.jpg; sourceTree = "<group>"; };
+		B2398FCB2021668C00708C3E /* timg002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg002.jpg; sourceTree = "<group>"; };
+		B2398FCF2021674A00708C3E /* timg005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg005.jpg; sourceTree = "<group>"; };
+		B2398FD02021674A00708C3E /* timg008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg008.jpg; sourceTree = "<group>"; };
+		B2398FD12021674A00708C3E /* timg014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg014.jpg; sourceTree = "<group>"; };
+		B2398FD22021674A00708C3E /* timg004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg004.jpg; sourceTree = "<group>"; };
+		B2398FD32021674A00708C3E /* timg012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg012.jpg; sourceTree = "<group>"; };
+		B2398FD42021674A00708C3E /* timg011.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg011.jpg; sourceTree = "<group>"; };
+		B2398FD52021674A00708C3E /* timg013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg013.jpg; sourceTree = "<group>"; };
+		B2398FD62021674A00708C3E /* timg003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg003.jpg; sourceTree = "<group>"; };
+		B2398FD72021674A00708C3E /* timg009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg009.jpg; sourceTree = "<group>"; };
+		B2398FD82021674A00708C3E /* timg007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg007.jpg; sourceTree = "<group>"; };
+		B2398FD92021674A00708C3E /* timg010.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg010.jpg; sourceTree = "<group>"; };
+		B2398FDA2021674A00708C3E /* timg006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg006.jpg; sourceTree = "<group>"; };
+		B2398FE7202168C300708C3E /* TiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledView.h; sourceTree = "<group>"; };
+		B2398FE8202168C300708C3E /* TiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23251D92020726000FD2009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251F12020726100FD2009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251FC2020726100FD2009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23251D32020726000FD2009 = {
+			isa = PBXGroup;
+			children = (
+				B23251DE2020726000FD2009 /* TiledLayerDemo */,
+				B23251F72020726100FD2009 /* TiledLayerDemoTests */,
+				B23252022020726100FD2009 /* TiledLayerDemoUITests */,
+				B23251DD2020726000FD2009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23251DD2020726000FD2009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23251DC2020726000FD2009 /* TiledLayerDemo.app */,
+				B23251F42020726100FD2009 /* TiledLayerDemoTests.xctest */,
+				B23251FF2020726100FD2009 /* TiledLayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23251DE2020726000FD2009 /* TiledLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B2398F9C20215F8F00708C3E /* img */,
+				B23251DF2020726000FD2009 /* AppDelegate.h */,
+				B23251E02020726000FD2009 /* AppDelegate.m */,
+				B2398FE7202168C300708C3E /* TiledView.h */,
+				B2398FE8202168C300708C3E /* TiledView.m */,
+				B23252702020757400FD2009 /* CollectionViewCell.h */,
+				B23252712020757400FD2009 /* CollectionViewCell.m */,
+				B2325211202073AA00FD2009 /* CollectionViewController.h */,
+				B2325212202073AA00FD2009 /* CollectionViewController.m */,
+				B23251E52020726000FD2009 /* Main.storyboard */,
+				B23251E82020726000FD2009 /* Assets.xcassets */,
+				B23251EA2020726000FD2009 /* LaunchScreen.storyboard */,
+				B23251ED2020726000FD2009 /* Info.plist */,
+				B23251EE2020726100FD2009 /* main.m */,
+				B232526E2020752800FD2009 /* Imgs.plist */,
+			);
+			path = TiledLayerDemo;
+			sourceTree = "<group>";
+		};
+		B23251F72020726100FD2009 /* TiledLayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23251F82020726100FD2009 /* TiledLayerDemoTests.m */,
+				B23251FA2020726100FD2009 /* Info.plist */,
+			);
+			path = TiledLayerDemoTests;
+			sourceTree = "<group>";
+		};
+		B23252022020726100FD2009 /* TiledLayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B23252032020726100FD2009 /* TiledLayerDemoUITests.m */,
+				B23252052020726100FD2009 /* Info.plist */,
+			);
+			path = TiledLayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		B2398F9C20215F8F00708C3E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B2398FD62021674A00708C3E /* timg003.jpg */,
+				B2398FD22021674A00708C3E /* timg004.jpg */,
+				B2398FCF2021674A00708C3E /* timg005.jpg */,
+				B2398FDA2021674A00708C3E /* timg006.jpg */,
+				B2398FD82021674A00708C3E /* timg007.jpg */,
+				B2398FD02021674A00708C3E /* timg008.jpg */,
+				B2398FD72021674A00708C3E /* timg009.jpg */,
+				B2398FD92021674A00708C3E /* timg010.jpg */,
+				B2398FD42021674A00708C3E /* timg011.jpg */,
+				B2398FD32021674A00708C3E /* timg012.jpg */,
+				B2398FD52021674A00708C3E /* timg013.jpg */,
+				B2398FD12021674A00708C3E /* timg014.jpg */,
+				B2398FC92021668C00708C3E /* timg000.jpg */,
+				B2398FCA2021668C00708C3E /* timg001.jpg */,
+				B2398FCB2021668C00708C3E /* timg002.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23251DB2020726000FD2009 /* TiledLayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23252082020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */;
+			buildPhases = (
+				B23251D82020726000FD2009 /* Sources */,
+				B23251D92020726000FD2009 /* Frameworks */,
+				B23251DA2020726000FD2009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledLayerDemo;
+			productName = TiledLayerDemo;
+			productReference = B23251DC2020726000FD2009 /* TiledLayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23251F32020726100FD2009 /* TiledLayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B232520B2020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemoTests" */;
+			buildPhases = (
+				B23251F02020726100FD2009 /* Sources */,
+				B23251F12020726100FD2009 /* Frameworks */,
+				B23251F22020726100FD2009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23251F62020726100FD2009 /* PBXTargetDependency */,
+			);
+			name = TiledLayerDemoTests;
+			productName = TiledLayerDemoTests;
+			productReference = B23251F42020726100FD2009 /* TiledLayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23251FE2020726100FD2009 /* TiledLayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B232520E2020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemoUITests" */;
+			buildPhases = (
+				B23251FB2020726100FD2009 /* Sources */,
+				B23251FC2020726100FD2009 /* Frameworks */,
+				B23251FD2020726100FD2009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23252012020726100FD2009 /* PBXTargetDependency */,
+			);
+			name = TiledLayerDemoUITests;
+			productName = TiledLayerDemoUITests;
+			productReference = B23251FF2020726100FD2009 /* TiledLayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23251D42020726000FD2009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "夏宁忠";
+				TargetAttributes = {
+					B23251DB2020726000FD2009 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B23251F32020726100FD2009 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B23251DB2020726000FD2009;
+					};
+					B23251FE2020726100FD2009 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B23251DB2020726000FD2009;
+					};
+				};
+			};
+			buildConfigurationList = B23251D72020726000FD2009 /* Build configuration list for PBXProject "TiledLayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23251D32020726000FD2009;
+			productRefGroup = B23251DD2020726000FD2009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23251DB2020726000FD2009 /* TiledLayerDemo */,
+				B23251F32020726100FD2009 /* TiledLayerDemoTests */,
+				B23251FE2020726100FD2009 /* TiledLayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23251DA2020726000FD2009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2398FDB2021674B00708C3E /* timg005.jpg in Resources */,
+				B232526F2020752800FD2009 /* Imgs.plist in Resources */,
+				B2398FDF2021674B00708C3E /* timg012.jpg in Resources */,
+				B2398FE12021674B00708C3E /* timg013.jpg in Resources */,
+				B2398FE32021674B00708C3E /* timg009.jpg in Resources */,
+				B2398FE62021674B00708C3E /* timg006.jpg in Resources */,
+				B23251EC2020726000FD2009 /* LaunchScreen.storyboard in Resources */,
+				B2398FCD2021668C00708C3E /* timg001.jpg in Resources */,
+				B2398FDE2021674B00708C3E /* timg004.jpg in Resources */,
+				B23251E92020726000FD2009 /* Assets.xcassets in Resources */,
+				B2398FE42021674B00708C3E /* timg007.jpg in Resources */,
+				B2398FDC2021674B00708C3E /* timg008.jpg in Resources */,
+				B23251E72020726000FD2009 /* Main.storyboard in Resources */,
+				B2398FCC2021668C00708C3E /* timg000.jpg in Resources */,
+				B2398FE22021674B00708C3E /* timg003.jpg in Resources */,
+				B2398FE52021674B00708C3E /* timg010.jpg in Resources */,
+				B2398FDD2021674B00708C3E /* timg014.jpg in Resources */,
+				B2398FCE2021668C00708C3E /* timg002.jpg in Resources */,
+				B2398FE02021674B00708C3E /* timg011.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251F22020726100FD2009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251FD2020726100FD2009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23251D82020726000FD2009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23251EF2020726100FD2009 /* main.m in Sources */,
+				B23251E12020726000FD2009 /* AppDelegate.m in Sources */,
+				B2325213202073AA00FD2009 /* CollectionViewController.m in Sources */,
+				B23252722020757400FD2009 /* CollectionViewCell.m in Sources */,
+				B2398FE9202168C300708C3E /* TiledView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251F02020726100FD2009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23251F92020726100FD2009 /* TiledLayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23251FB2020726100FD2009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23252042020726100FD2009 /* TiledLayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23251F62020726100FD2009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23251DB2020726000FD2009 /* TiledLayerDemo */;
+			targetProxy = B23251F52020726100FD2009 /* PBXContainerItemProxy */;
+		};
+		B23252012020726100FD2009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23251DB2020726000FD2009 /* TiledLayerDemo */;
+			targetProxy = B23252002020726100FD2009 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23251E52020726000FD2009 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23251E62020726000FD2009 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B23251EA2020726000FD2009 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23251EB2020726000FD2009 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23252062020726100FD2009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B23252072020726100FD2009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23252092020726100FD2009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69NZF2A52C;
+				INFOPLIST_FILE = TiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B232520A2020726100FD2009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69NZF2A52C;
+				INFOPLIST_FILE = TiledLayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B232520C2020726100FD2009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledLayerDemo.app/TiledLayerDemo";
+			};
+			name = Debug;
+		};
+		B232520D2020726100FD2009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiledLayerDemo.app/TiledLayerDemo";
+			};
+			name = Release;
+		};
+		B232520F2020726100FD2009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiledLayerDemo;
+			};
+			name = Debug;
+		};
+		B23252102020726100FD2009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiledLayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.TiledLayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiledLayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23251D72020726000FD2009 /* Build configuration list for PBXProject "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23252062020726100FD2009 /* Debug */,
+				B23252072020726100FD2009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23252082020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23252092020726100FD2009 /* Debug */,
+				B232520A2020726100FD2009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B232520B2020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B232520C2020726100FD2009 /* Debug */,
+				B232520D2020726100FD2009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B232520E2020726100FD2009 /* Build configuration list for PBXNativeTarget "TiledLayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B232520F2020726100FD2009 /* Debug */,
+				B23252102020726100FD2009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23251D42020726000FD2009 /* Project object */;
+}
