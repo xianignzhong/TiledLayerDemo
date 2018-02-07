@@ -11,8 +11,6 @@
 
 @interface CollectionViewCell : UICollectionViewCell
 
-@property (nonatomic, strong)UIImageView * imageView;
-
 @property (nonatomic, strong)TiledView * tiledView;
 
 -(void)loadImgWithUrl:(NSString *)url;
