@@ -11,8 +11,6 @@
 
 @interface TiledView : UIView
 
-@property (nonatomic, assign)CGRect rect;
-
 @property (nonatomic, copy)NSString * s_name;
 
 @property (nonatomic, readonly)CATiledLayer *tiledLayer;
